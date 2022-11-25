@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> should render a <Accordion /> 1`] = `
+<div>
+  <div
+    class="sc-bdnxRM bHJSvJ"
+  >
+    <button
+      class="sc-gtsrHT NeZzs"
+      data-testid="button"
+    >
+      accordionTitle
+    </button>
+    <div
+      class="sc-dlnjwi idkNxN closed"
+      data-testid="content"
+    >
+      <p>
+        Content
+      </p>
+    </div>
+  </div>
+</div>
+`;
