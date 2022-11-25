@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponsiveComponent /> should render a <Accordion /> 1`] = `
+<div>
+  <div
+    class="sc-bdnxRM iCFseo"
+  >
+    <p>
+      Mobile
+    </p>
+  </div>
+  <div
+    class="sc-gtsrHT ebaTNJ"
+  >
+    <p>
+      Desktop
+    </p>
+  </div>
+</div>
+`;

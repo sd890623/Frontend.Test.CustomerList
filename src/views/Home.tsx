@@ -5,6 +5,8 @@ import { AddCustomerForm } from "../components/AddCustomer/AddCustomerForm";
 import { Dispatch } from "redux";
 import { CustomerState, ICustomer } from "../types/types";
 import { addCustomer, removeCustomer } from "../redux/actions/customerActions";
+import Accordion from "../components/Accordion/Accordion";
+import ResponsiveComponent from "../components/ResponsiveComponent/ResponsiveComponent";
 
 const Home: React.FC = () => {
   const customers: readonly ICustomer[] = useSelector(
@@ -21,7 +23,10 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <AddCustomerForm saveCustomer={saveCustomer} />
+      <ResponsiveComponent
+          desktop={<AddCustomerForm saveCustomer={saveCustomer} />}
+          mobile={<Accordion title="toggle form"><AddCustomerForm saveCustomer={saveCustomer} /></Accordion>}
+      />
       {customers.map((customer: ICustomer) => (
         <Customer
           key={customer.id}

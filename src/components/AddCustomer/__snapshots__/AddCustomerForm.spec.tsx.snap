@@ -4,7 +4,7 @@ exports[`<AddCustomerForm /> should render a <AddCustomerForm /> 1`] = `
 <div>
   <form
     action="#"
-    class="sc-bdnxRM hrMVqk"
+    class="sc-bdnxRM pmYmb"
   >
     <label
       class="sc-gtsrHT bmgxMS"
