@@ -23,7 +23,7 @@ export const Customer: React.FC<Props> = ({ customer, removeCustomer }) => {
   );
 
   return (
-    <StyledCustomer>
+    <StyledCustomer data-testid="customer">
       <StyledCustomerName>
         {customer.firstName} {customer.lastName}
       </StyledCustomerName>

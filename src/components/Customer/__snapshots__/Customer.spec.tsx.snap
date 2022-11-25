@@ -4,6 +4,7 @@ exports[`<Customer /> should render a <Customer /> 1`] = `
 <div>
   <div
     class="sc-bdnxRM llOSvQ"
+    data-testid="customer"
   >
     <h2
       class="sc-gtsrHT bmgxMS"
