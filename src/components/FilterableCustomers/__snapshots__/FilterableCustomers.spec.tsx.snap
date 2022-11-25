@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterableCustomers /> should render a <FilterableCustomers /> 1`] = `
+<div>
+  <div
+    class="sc-eCApnc fgVDfB"
+  >
+    <label
+      class="sc-jSFjdj joFUgd"
+    >
+      Name or mobile
+    </label>
+    <input
+      class="sc-gKAaRy"
+      data-testid="input"
+      name="search-word"
+      type="text"
+      value=""
+    />
+    <div
+      class="sc-iCoGMd"
+    >
+      <div
+        class="sc-bdnxRM llOSvQ"
+        data-testid="customer"
+      >
+        <h2
+          class="sc-gtsrHT bmgxMS"
+        >
+          Charles
+           
+          Babbage
+        </h2>
+        <p
+          class="sc-dlnjwi kUbGey"
+        >
+          Phone number: 
+          0412 123 123
+        </p>
+        <button
+          class="sc-hKFxyN dwHgfV"
+        >
+          Delete
+        </button>
+      </div>
+      <div
+        class="sc-bdnxRM llOSvQ"
+        data-testid="customer"
+      >
+        <h2
+          class="sc-gtsrHT bmgxMS"
+        >
+          Alan
+           
+          Turing
+        </h2>
+        <p
+          class="sc-dlnjwi kUbGey"
+        >
+          Phone number: 
+          (03) 9599 1234
+        </p>
+        <button
+          class="sc-hKFxyN dwHgfV"
+        >
+          Delete
+        </button>
+      </div>
+      <div
+        class="sc-bdnxRM llOSvQ"
+        data-testid="customer"
+      >
+        <h2
+          class="sc-gtsrHT bmgxMS"
+        >
+          Ada
+           
+          Lovelace
+        </h2>
+        <p
+          class="sc-dlnjwi kUbGey"
+        >
+          Phone number: 
+          +61 423 345 567
+        </p>
+        <button
+          class="sc-hKFxyN dwHgfV"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
